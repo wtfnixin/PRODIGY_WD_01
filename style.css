@@ -1,0 +1,50 @@
+.page{
+    background-color: red;
+    height: 100vh;
+}
+.page1{
+    background-color: green;
+    height: 100vh;
+}
+.page2{
+    background-color: blue;
+    height: 100vh;
+}
+.page3{
+    background-color: yellow;
+    height: 100vh;
+
+}
+html,body{
+    background-color: gray;
+    margin: 0%;
+    padding: 0%;
+    align-items: end;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin: 0%;
+    list-style: none;
+    gap: 30px;
+    color: white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white
+}
+li{
+    padding: 12px;
+
+}
+
