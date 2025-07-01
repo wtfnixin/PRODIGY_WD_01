@@ -27,6 +27,15 @@ html,body{
     top: 0;
     z-index: 1000;
     background-color: rgba(0, 0, 0, 0.801);
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50px);
+}
+.navbar:hover{
+    background-color: rgba(80, 5, 5, 0.801);
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(50px);
+    transition: ease-in-out 0.5s;
+    transition: ease-out 0.5s;
 }
 
 ul{
