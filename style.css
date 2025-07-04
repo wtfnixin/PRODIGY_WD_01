@@ -1,22 +1,6 @@
-.page{
-    background-color: rgb(247, 247, 247);
-    height: 100vh;
-}
-.page1{
-    background-color: green;
-    height: 100vh;
-}
-.page2{
-    background-color: blue;
-    height: 100vh;
-}
-.page3{
-    background-color: yellow;
-    height: 100vh;
 
-}
 html,body{
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     margin: 0%;
     padding: 0%;
     align-items: end;
@@ -30,14 +14,18 @@ html,body{
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(50px);
     border: none;
+    transition: all 0.6s ease 0s;
+    padding-left: 68%;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size:15px  
+    
+
 }
 .navbar:hover{
     box-shadow: 1px 5px 10px rgba(36, 27, 27, 0.5);
-    background-color: rgb(147, 206, 255);
+    background-color: rgba(162, 164, 167, 0.067);
     backdrop-filter: blur(50px);
-    transition: ease-in-out 0.5s;
-    transition: ease-out 0.5s;
-    background-size: 20%;
 }
 
 ul{
@@ -49,18 +37,54 @@ ul{
     gap: 30px;
     color: white;
     cursor: pointer;
+    
 }
 a{
     text-decoration: none;
-    color: white
+    color: #b2bec3
 }
 a:hover{
-    color: black;
-    transition: ease-in-out 0.5s;
-    transition: ease-out 0.5s
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+    
 }
+
 li{
     padding: 12px;
-
 }
 
+
+
+.name{
+    text-color: rgb(217, 213, 213);
+    position: absolute;
+    margin: 0%;
+    padding-left: 10px;
+    top: 22px;
+    left: 15px;
+    display: flex;
+   
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #b2bec3
+}
+header{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.toggle-button{
+    position: relative;
+    border-radius: 12px;
+    background-color:black;
+    color: #b2bec3;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:15px;
+    border-color: white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
+  
+}
