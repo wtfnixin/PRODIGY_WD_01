@@ -1,42 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Landing Page  </title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-animation"></div>
+
+    <!-- Navigation Bar -->
     <header>
-        <div class="navbar">
-            <h4 class="name">Name</h4>
-            <div class="nav-right">
-                <button class="toggle-button">Sign up</button>
-
-
-                <ul>    
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Services</a></li>
-                </ul>
-            </div>
+      <div class="navbar">
+        <h4 class="name">TechVision</h4>
+        <div class="nav-right">
+          <button class="toggle-button">Get Started</button>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
+      </div>
     </header>
-    
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Shape The Future</h1>
+        <p>
+          Revolutionary digital solutions that transform businesses and create
+          extraordinary experiences. We blend cutting-edge technology with
+          innovative design<br> to deliver results that matter.
+        </p>
+        <button class="cta-button">Start Your Journey</button>
+      </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About TechVision</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. In obcaecati, iste omnis reprehenderit porro adipisci. Ipsum eligendi, animi accusantium, maxime est quo laboriosam eos pariatur laborum nihil sint vel obcaecati.
+      </p>
 
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-number">500+</span>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">99%</span>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">50+</span>
+          <div class="stat-label">Expert Team</div>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">24/7</span>
+          <div class="stat-label">Support</div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+      <p>
+        Comprehensive digital solutions tailored to your unique needs and
+        business objectives.
+      </p>
 
-    
-    
-   
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🚀</div>
+          <h3>Web Development</h3>
+          <p>
+            Custom websites and web applications built with modern frameworks
+            and technologies. From responsive design to complex functionality,
+            we deliver exceptional digital experiences.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Mobile Apps</h3>
+          <p>
+            Native and cross-platform mobile applications that engage users and
+            drive business growth. Seamless performance across all devices and
+            platforms.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">☁️</div>
+          <h3>Cloud Solutions</h3>
+          <p>
+            Scalable cloud infrastructure and services that ensure reliability,
+            security, and performance. Migration, optimization, and management
+            of cloud resources.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <h3>UI/UX Design</h3>
+          <p>
+            Beautiful, intuitive interfaces that create memorable user
+            experiences. Data-driven design decisions that boost engagement and
+            conversions.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Cybersecurity</h3>
+          <p>
+            Comprehensive security solutions to protect your digital assets.
+            Advanced threat detection, prevention, and response strategies.
+          </p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Analytics</h3>
+          <p>
+            Data-driven insights that inform strategic decisions. Advanced
+            analytics, reporting, and business intelligence solutions.
+          </p>
+        </div>
+      </div>
+    </section>
 
-   
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Ready to Transform?</h2>
+      <p>
+        Let's discuss how we can help you achieve your digital goals. Get in
+        touch with our team of experts today.
+      </p>
+      <div class="center">
+        <button class="cta-button">Contact Us Now</button>
+      </div>
+    </section>
 
-    
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        &copy; 2025 TechVision. All rights reserved. | Crafted with passion and
+        innovation.
+      </p>
+    </footer>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
