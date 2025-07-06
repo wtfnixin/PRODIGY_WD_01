@@ -78,12 +78,14 @@ body {
   background: linear-gradient(45deg, #f0c27b, #4b1248);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 28px;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-size: 30px;
+  font-family: "bakbak-one", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 0;
   cursor: pointer;
   transition: transform 0.3s ease;
+  padding-top: 4px;
 }
 
 .navbar .name:hover {
@@ -138,14 +140,14 @@ li {
   padding: 12px;
   transition: all 0.3s ease;
 }
-li:hover{
-    transform: scale(1.1);
-    transition: all 0.3s ease;
+li:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }
 
 .navbar .nav-right button {
-  background: linear-gradient(45deg, #F0C27B, #4B1248 );
-  
+  background: linear-gradient(45deg, #f0c27b, #4b1248);
+
   color: #000000;
   border-radius: 10em;
   font-size: 15px;
@@ -158,12 +160,11 @@ li:hover{
   box-shadow: 0 0 0 0 black;
   padding-left: 0.7em;
   padding-right: 0.7em;
-
 }
 
 .navbar .nav-right button:hover {
   transform: translateY(-4px) translateX(-2px);
-  box-shadow: 2px 5px 0  rgb(90, 60, 60);
+  box-shadow: 2px 5px 0 rgb(90, 60, 60);
 }
 
 .navbar .nav-right button:active {
@@ -188,13 +189,16 @@ li:hover{
 }
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   margin-bottom: 20px;
   background: linear-gradient(45deg, #f0c27b, #4b1248, #f0c27b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 200%;
   animation: gradientShift 3s ease infinite;
+  font-family: "pacifico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .hero p {
@@ -216,7 +220,6 @@ li:hover{
   transition: all 0.3s ease;
   box-shadow: 0 5px 20px rgba(240, 194, 123, 0.3);
   text-align: center;
-  
 }
 
 .cta-button:hover {
@@ -384,6 +387,96 @@ li:hover{
     padding: 50px 20px;
   }
 }
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
+
+/* From Uiverse.io by aadium */
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  
+  padding: 15px 10px;
+  border-radius: 5em;
+  gap: 13px;
+  transition: 0.3s;
+  
+}
+
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px #00000027;
+  transition: 0.3s;
+}
+
+.social-button:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 6px 3px #00000027;
+}
+
+.social-buttons svg {
+  transition: 0.3s;
+  height: 20px;
+}
+
+.facebook {
+  background-color: transparent;
+}
+
+.facebook svg {
+  fill: #f2f2f2;
+}
+
+.facebook:hover svg {
+  fill: #3b5998;
+}
+
+.github {
+  background-color: transparent;
+}
+
+.github svg {
+  width: 25px;
+  height: 25px;
+  fill: #f2f2f2;
+}
+
+.github:hover svg {
+  fill: #333;
+}
+
+.linkedin {
+  background-color: transparent;
+}
+
+.linkedin svg {
+  fill: #f2f2f2;
+}
+
+.linkedin:hover svg {
+  fill: #0077b5;
+}
+
+.instagram {
+  background-color: transparent;
+}
+
+.instagram svg {
+  fill: #f2f2f2;
+}
+
+.instagram:hover svg {
+  fill: #c13584;
+}
+
+
+  
